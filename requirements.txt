@@ -1,0 +1,10 @@
+# Python 3.8+ (tested with 3.11.9)
+#
+# Creating the datasets (make_all_datasets.py, make_dlp_test_files.py,
+# make_dlp_low_density_files.py) needs only the Python standard library.
+#
+# Running the evaluation (eval_dlp_text.py) needs these two:
+#   pip install -r requirements.txt
+
+requests==2.32.5     # sends the files to the DLP API
+openpyxl==3.1.5      # writes the Excel report
